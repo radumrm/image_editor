@@ -14,7 +14,6 @@ for both ASCII and binary files. It can do a variety of operations such as:
 the visibility of details that might be hard to notice otherwise
 - Histogram
 - Saving photos in ASCII format as well as binary
-###########################################################################
 
 STRUCTURES:
 ---------------------------------------------------------------------------
@@ -31,7 +30,6 @@ Image structure holds the information about the image such as:
 CMD structure holds the information for each command line:
 - count (number of words in the command)
 - c (matrix to store the individual words of a command)
-###########################################################################
 
 COMMANDS:
 ---------------------------------------------------------------------------
@@ -45,7 +43,6 @@ HISTOGRAM x y: printing the histogram using maximum x starts and y bins
 ROTATE angle: rotating selection to an angle in the [-360, 360] range
 SAVE file: saving the file in binary format
 SAVE file ascii: saving the file in ASCII format
-###########################################################################
 
 FUNCTIONS:
 ---------------------------------------------------------------------------
