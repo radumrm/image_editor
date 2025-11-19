@@ -756,4 +756,3 @@ int main(void)
 	free_memory(&a);
 	return 0;
 }
-
